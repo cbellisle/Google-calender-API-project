@@ -1,0 +1,17 @@
+Macaroni art;08/25/2022 10:00:00;Finish macaroni art
+art Quiz 1 due;08/30/2022 10:00:00; Do quiz 1 before class on moodle
+Artist statement;9/01/2022 10:00:00;Finish art statement
+Quiz 2;9/06/2022 10:00:00;moodle quiz
+Line project due;9/15/2022 10:00:00;Finish line project
+Quiz 3;9/20/2022 10:00:00;moodle quiz
+Shape project due;9/29/2022 10:00:00;Finish shape project
+Quiz 4;10/04/2022 10:00:00;moodle quiz
+midterm;10/06/2022 10:00:00;midterm
+Value projects;10/13/2022 10:00:00;Finish value project
+Quiz 5;10/18/2022 10:00:00;moodle quiz
+Color project due;10/27/2022 10:00:00;finish project
+Quiz 6;11/01/2022 10:00:00;moodle quiz
+texture project due;11/10/2022 10:00:00;finish texture project
+quiz 7;11/15/2022 10:00:00;moodle quiz
+space projects due;12/01/2022 10:00:00;finish space project
+final project;12/08/2022 10:00:00;Final stuff
