@@ -94,9 +94,7 @@ namespace googleProject
                     Summary = strings[0],
                     Start = new EventDateTime()
                     {
-                        DateTime = DateTime.Parse(strings[1])
-                        //TimeZone = "America/New_York",
-                    },
+                        DateTime = DateTime.Parse(strings[1])                    },
 
                     End = new EventDateTime()
                     {
@@ -142,7 +140,7 @@ namespace googleProject
                     break;
 
             };
-            button2.BackColor = color1;
+          //  button2.BackColor = color1;
         }
 
         private void colorBox_TextChanged(object sender, EventArgs e)
