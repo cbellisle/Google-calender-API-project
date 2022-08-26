@@ -25,7 +25,16 @@ namespace googleProject
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.Text = "Calender Creator";
+            //Event @event = new Event()
+            //{
+            //    Summary = "gang",
+            //    Start = new EventDateTime() { DateTime = new DateTime(2022, 10, 5) },
+            //    End = new EventDateTime() { DateTime = new DateTime(2022, 10, 5) }
+
+
+
+
+            //};
         }
         //file dialog button
         private void button1_Click(object sender, EventArgs e)
@@ -111,11 +120,30 @@ namespace googleProject
         //add button
         private void button3_Click(object sender, EventArgs e)
         {
-            if(path != null)
-                loadFile(path);
+            loadFile(path);
 
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ColorDialog color = new ColorDialog();
+            color.ShowDialog();
+
+            Color result;
+
+            switch ((DialogResult)
+                DialogResult.OK)
+            {
+                case DialogResult.OK:
+                    result = color.Color;
+                    color1 = result;
+                    break;
+                case DialogResult.Cancel:
+                    break;
+
+            };
+            button2.BackColor = color1;
+        }
 
         private void colorBox_TextChanged(object sender, EventArgs e)
         {
