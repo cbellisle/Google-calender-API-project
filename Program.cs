@@ -61,7 +61,7 @@ namespace googleProject
                 request.OrderBy = EventsResource.ListRequest.OrderByEnum.StartTime;
 
 
-                var calenderId = "primary";
+               // var calenderId = "primary";
 
                 //service.Events.Delete(calenderId, "28q2ortknqa6190tr4cbu9ub84").Execute();
 
@@ -123,7 +123,7 @@ namespace googleProject
 
             try
             {
-
+                
 
                 using (var stream =
                        new FileStream("credentials.json", FileMode.Open, FileAccess.Read))
@@ -156,10 +156,12 @@ namespace googleProject
                 // request.
                 request.OrderBy = EventsResource.ListRequest.OrderByEnum.StartTime;
                 Event recurringEvent = service.Events.Insert(newevent, "primary").Execute();
-
+                MessageBox.Show("Tasks successfully added!");
             }
             catch
             {
+                MessageBox.Show("That did not work lol!");
+
                 //do nothing
             }
 
